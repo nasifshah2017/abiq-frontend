@@ -1,4 +1,58 @@
 .navbar-abiq {
-	background-color: #000;
+	background-color: #3D5A6C;
 	height: 270px;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.navbar-item.active {
+	border-top: 6px solid #66ff66;
+}
+
+.img-profile {
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+	vertical-align: middle;
+    margin: -12px 0;
+}
+
+.header-link {
+	color: #c0c0c0;
+    border-top: 6px solid transparent;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-link:hover {
+	color: white;
+}
+
+.header-link.active {
+	color: #66ff66;
+    border-top: 6px solid #66ff66;
+}
+
+.navbar-brand {
+	width: 80px;
+	height: 100px;
+}
+
+.page-title {
+    color: #fff;
+    margin: 0 0 6px;
+    font-weight: 300;
+    font-size: 38px;
+    margin-top: 12px;
+}
+
+.page-subtitle {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
 }

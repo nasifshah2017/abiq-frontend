@@ -18,9 +18,9 @@ export class Sidebar extends Component {
 		return (
 			<div className="sidebar">
 	  			<ul className="list-group nav">
-	  				<SidebarItem name="Home" icon="home" active={this.state.buttonActive == 'home' ? true : false} onClick={this.handleClick} />
-	  				<SidebarItem name="Register" icon="user-plus" active={this.state.buttonActive == 'register' ? true : false} onClick={this.handleClick} />
-	  				<SidebarItem name="Login" icon="sign-in" active={this.state.buttonActive == 'login' ? true : false} onClick={this.handleClick} />
+	  				<SidebarItem name="Home" icon="home" active={this.state.buttonActive === 'home' ? true : false} onClick={this.handleClick} />
+	  				<SidebarItem name="Register" icon="user-plus" active={this.state.buttonActive === 'register' ? true : false} onClick={this.handleClick} />
+	  				<SidebarItem name="Login" icon="sign-in" active={this.state.buttonActive === 'login' ? true : false} onClick={this.handleClick} />
 	  			</ul>
   			</div>
 		);
